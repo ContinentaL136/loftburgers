@@ -1,0 +1,45 @@
+// Настройка второй страницы
+
+.second-page {
+    background-image: url('../../img/second-page/background-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__title--best {
+    color: $dark;
+    padding: 0;
+    margin-bottom: rem(60px);
+}
+
+.second-page__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.second-page__item {
+    flex-basis: 296px;
+}
+
+.second-page__pic {
+    padding-bottom: 35px;
+}
+
+.second-page__title {
+    font-family: 'Lifehack';
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.second-page__text {
+    font-size: 14px;
+    line-height: 24px;
+}

@@ -1,0 +1,6 @@
+.first-page {
+  background-image: url("../../img/fist-page/background-1.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  position: relative; }

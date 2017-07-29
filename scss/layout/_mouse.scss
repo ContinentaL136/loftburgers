@@ -1,0 +1,21 @@
+// Меняем цвет при выделении мышкой
+
+::selection {
+    background: $darkGrey;
+    color: $deepGreen;
+}
+
+::-moz-selection {
+    background: $darkGrey;
+    color: $deepGreen;
+}
+
+::-webkit-selection {
+    background: $darkGrey;
+    color: $deepGreen;
+}
+
+::-ms-selection {
+    background: $darkGrey;
+    color: $deepGreen;
+}

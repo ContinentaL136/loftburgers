@@ -1,0 +1,46 @@
+// Импортируем конфиг
+
+@import "config/_variables";
+@import "config/_mixins";
+
+// Импортируем базовые настройки для сайта
+
+@import "layout/_fonts";
+@import "layout/_base";
+@import "layout/_adjustment";
+@import "layout/_mouse";
+
+// Импортируем страницы лендинга
+
+// Первая
+
+@import "section/_first-page.scss";
+
+// Вторая
+
+@import "section/_second-page.scss";
+
+// Третья
+
+@import "section/_third-page.scss";
+
+// Четвертая
+
+@import "section/_fourth-page.scss";
+
+// Пятая
+
+@import "section/_fifth-page.scss";
+
+// Шестая
+
+@import "section/_sixth-page.scss";
+
+// Седьмая
+
+@import "section/_seventh-page.scss";
+
+// Восьмая
+
+@import "section/_eighth-page.scss";
+

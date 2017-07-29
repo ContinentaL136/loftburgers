@@ -1,0 +1,11 @@
+// Настройка пятой страницы
+
+.fifth-page {
+  background-image: url('../../img/fifth-page/background-5.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

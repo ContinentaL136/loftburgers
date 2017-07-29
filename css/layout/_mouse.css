@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* selection block (Отвечает за выделение текста мышкой) */
+::-moz-selection {
+  background: #383838;
+  color: #80ac6d; }
+::selection {
+  background: #383838;
+  color: #80ac6d; }
+
+::-moz-selection {
+  background: #383838;
+  color: #80ac6d; }
+
+::-webkit-selection {
+  background: #383838;
+  color: #80ac6d; }
+
+::-ms-selection {
+  background: #383838;
+  color: #80ac6d; }

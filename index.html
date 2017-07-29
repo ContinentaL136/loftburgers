@@ -5,87 +5,301 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Burgers</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="maincontent">
 
-    <!-- Структура главной страницы лендинга -->
+            <!-- Структура первой страницы лендинга - приветствие -->
 
-    <section class="main-page">
-        <div class="container">
+            <section class="section first-page">
+                <div class="container first-page__container">
 
-            <!-- Шапка сайта -->
+                    <!-- Шапка сайта, навигация и кнопка заказа -->
 
-            <header class="header">
-                <div class="header-logo">
-                    <a href="" class="header-logo__link">
-                        <img src="" alt="" class="header-logo__pic">
-                    </a>
-                </div>
-                <nav class="main-nav">
-                    <ul class="main-nav__list">
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                О нас
+                    <header class="header">
+                        <div class="header-logo">
+                            <a href="" class="header-logo__link">
+                                <img src="img/fist-page/logo.png" alt="Логотип фирмы" class="header-logo__pic">
                             </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                Бургеры
-                            </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                Команда
-                            </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                Меню
-                            </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                Отзывы
-                            </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link">
-                                Контакты
-                            </a>
-                        </li>
-                        <li class="main-nav__item">
-                            <a href="" class="main-nav__link main-nav__link--orange">
+                        </div>
+                        <nav class="main-nav">
+                            <ul class="main-nav__list">
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        О нас
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        Бургеры
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        Команда
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        Меню
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="" class="main-nav__link">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__btn">
+                            <a class="order-link" href="" data-goto="6">
                                 Заказать
                             </a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+                        </div>
+                    </header>
 
-            <!-- Главная картинка и надпись -->
+                    <!-- Главная картинка и надпись -->
 
-            <div class="main-logo">
-                <img src="" alt="" class="main-logo__pic">
-            </div>
+                    <div class="first-page__content">
+                        <div class="first-page__img">
+                            <img src="img/fist-page/burger.png" alt="Вкуснейший бургер с дымком">
+                        </div>
+                        <div class="first-page__description">
+                            <h2 class="section__title">Мы делаем</h2>
+                            <div class="first-page__description--text">натуральные бургеры</div>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll">
+                        <img src="img/fist-page/arrow-scroll.png" alt="Прокрутка колесика мыши" class="scroll__pic">
+                    </div>
+                </div>
+            </section>
 
-            <h1 class="main-title">
-                Мы делаем
-            </h1>
+            <!-- Структура второй страницы лендинга - мы лучшие -->
 
-            <h2 class="main-subbitles">
-                Натуральные бургеры
-            </h2>
+            <section class="section second-page">
+                <div class="container second-page__container">
+                    <div class="container">
+                        <h2 class="section__title section__title--best">Мы лучшие</h2>
 
+                        <ul class="second-page__list">
+                            <li class="second-page__item">
+                                <img src="img/second-page/meat.png" alt="Сочный кусок мяса" class="second-page__pic">
+                                <div class="second-page__title">100% Свежее мясо</div>
+                                <div class="second-page__text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.</div>
+                            </li>
+                            <li class="second-page__item">
+                                <img src="img/second-page/hand.png" alt="Hand Made" class="second-page__pic">
+                                <div class="second-page__title">Ручная  сборка</div>                                    <div class="second-page__text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.</div>
+                            </li>
+                            <li class="second-page__item">
+                                <img src="img/second-page/natural.png" alt="Листочки" class="second-page__pic">
+                                <div class="second-page__title">Натуральные ингредиенты</div>
+                                <div class="second-page__text">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Структура третьей страницы лендинга - наш продукт -->
+
+            <section class="section third-page">
+
+            </section>
+
+            <!-- Структура четвертой страницы лендинга - наша команда -->
+
+            <section class="section fourth-page">
+
+            </section>
+
+            <!-- Структура пятой страницы лендинга - наше меню -->
+
+            <section class="section fifth-page">
+
+            </section>
+
+            <!-- Сутрктура шестой страницы лендинга - отзывы -->
+
+            <section class="section sixth-page">
+                <ul class="sixth-page__list">
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face1.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face2.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face3.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face4.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face5.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face6.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face7.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sixth-page__item">
+                        <div class="review">
+                            <img src="img/sixth-page/face8.jpg" alt="Фотография пользователя" class="review__photo">
+                            <div class="review__hover">
+                                <div class="review__title">
+                                    Константин Спилберг
+                                </div>
+                                <div class="review__text">
+                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.
+                                </div>
+                                <div class="review__button">
+                                    <a href="#" class="review__btn">
+                                        Подробнее
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Структура седьмой страницы лендинга - форма заказа -->
+
+            <section class="section seventh-page">
+                <div class="container">
+                    <h2 class="section__title section__title--deliver">
+                        Закажите доставку
+                    </h2>
+                </div>
+            </section>
+
+            <!-- Стуктура восьмой страницы лендинга - карта и отметками -->
+
+            <section class="section eighth-page">
+                
+            </section>          
         </div>
-    </section>
+    </div>
 
-    <!-- Структура второй страницы лендинга -->
+    <footer class="footer">
 
-    <section class="second-page">
-        <div class="container">
-
-        </div>
-    </section>
-    
+    </footer>
 </body>
 </html>

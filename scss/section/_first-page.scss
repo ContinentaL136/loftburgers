@@ -1,0 +1,133 @@
+// Настройка первой страницы
+
+.first-page {
+    background-image: url('../../img/fist-page/background-1.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.main-nav {
+    margin-right: rem(15px);
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+}
+
+// Делаем кружок для нашей навигации
+
+.main-nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  &:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: ' ';
+    @include circle(4px, $white);
+    margin: 0 12px;
+  }
+  &:last-child:after {
+    display: none;
+  }
+}
+
+// Настраиваем навигацию на сайте и эффект hover
+
+.main-nav__link {
+  color: $white;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.42;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  transition: .5s;
+  &:hover {
+    text-decoration: underline;
+    color: $snow;
+  }
+}
+
+.first-page__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// Основной контент на первой странице
+
+.first-page__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  padding-bottom: 15%;
+}
+
+// Делим пространство описания и картинки
+
+.first-page__img, 
+.first-page__description {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.first-page__img {
+  align-items: center;
+}
+
+.first-page__description {
+  flex-direction: column;
+  justify-content: center;
+}
+
+// Настраиваем описание
+
+.section__title {
+  color: $yellow;
+  font-family: 'Gagalin';
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.42;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.first-page__description--text {
+  color: $white;
+  font-family: 'Lifehack';
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+// Настройка скролла
+
+.scroll {
+  margin-bottom: rem(40px); 
+}
+
+.scroll__pic {
+  cursor: pointer;
+}
+
