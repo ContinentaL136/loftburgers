@@ -145,7 +145,7 @@ ul {
   color: #80ac6d; }
 
 .first-page {
-  background-image: url("../../img/fist-page/background-1.jpg");
+  background-image: url("../img/fist-page/background-1.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -298,7 +298,7 @@ ul {
   cursor: pointer; }
 
 .second-page {
-  background-image: url("../../img/second-page/background-2.jpg");
+  background-image: url("../img/second-page/background-2.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -360,7 +360,7 @@ ul {
   background: linear-gradient(180deg, #f9b43b 0, #eb8c38 40%, #eb8c38 60%, #eb8c38 0, #f9b43b); }
 
 .fourth-page {
-  background-image: url("../../img/fourth-page/background-4.jpg");
+  background-image: url("../img/fourth-page/background-4.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -378,7 +378,7 @@ ul {
   align-items: center; }
 
 .fifth-page {
-  background-image: url("../../img/fifth-page/background-5.jpg");
+  background-image: url("../img/fifth-page/background-5.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -483,7 +483,7 @@ ul {
     color: #fffafa; }
 
 .seventh-page {
-  background-image: url("../../img/seventh-page/background-7.jpg");
+  background-image: url("../img/seventh-page/background-7.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
